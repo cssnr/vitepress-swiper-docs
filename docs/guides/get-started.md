@@ -90,7 +90,7 @@ Example using [additional options](options.md).
 ```
 
 ::: info 🖼️ LIVE DEMOS
-You can view more examples on the [Examples page](../examples).
+You can view more examples on the [Examples page](/examples/index.md).
 :::
 
 ### Dynamic URLs

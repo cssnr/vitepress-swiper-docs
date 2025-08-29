@@ -51,7 +51,7 @@ https://example.com/path/slide-11.png
 ```
 
 ::: info 🖼️ LIVE DEMOS
-You can view more examples on the [Examples page](../examples).
+You can view more examples on the [Examples page](../examples/index.md).
 :::
 
 Make sure to review all the [additional options](options.md) for the `<VPSwiper>` tag.
