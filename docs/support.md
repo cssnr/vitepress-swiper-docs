@@ -1,3 +1,9 @@
+---
+next:
+  text: 'Get Started'
+  link: '/guides/get-started'
+---
+
 # Support
 
 If you run into any issues or want to see any new features, please let us know!

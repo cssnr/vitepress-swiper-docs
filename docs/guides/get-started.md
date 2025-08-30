@@ -1,6 +1,12 @@
+---
+prev:
+  text: 'Examples'
+  link: '/examples'
+---
+
 # Getting Started
 
-A [Swiper](https://swiperjs.com/) Plugin for [VitePress](https://vitepress.dev/) to Easily add a Photo Gallery or Image Slideshow.
+A [VitePress](https://vitepress.dev/) Plugin for to Easily add a [Swiper](https://swiperjs.com/) Photo Gallery or Image Slideshow.
 
 Start by [installing](#install) the plugin, getting [setup](#setup) and [using](#usage) the gallery.
 
@@ -48,7 +54,7 @@ export default {
 }
 ```
 
-_Note: if you don't have a `theme/index.js` file, create it, [reference](https://vitepress.dev/guide/custom-theme#theme-resolving)._
+_Note: if you don't have a [.vitepress/theme/index.js](https://vitepress.dev/guide/custom-theme#theme-resolving) file, create one._
 
 ## Usage
 
@@ -81,6 +87,8 @@ Example using [additional options](options.md).
   :coverflow-effect="{ slideShadows: false }"
 />
 ```
+
+_Note: HTML tags must be seperated from Markdown with one blank line._
 
 ::: info 🖼️ LIVE DEMOS
 You can view more examples on the [Examples page](/examples/index.md).

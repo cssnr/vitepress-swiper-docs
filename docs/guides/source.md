@@ -1,3 +1,9 @@
+---
+next:
+  text: 'Usage'
+  link: '/guides/get-started#usage'
+---
+
 # Use from Source
 
 You can easily add the source file to your project for full control over the template.

@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Get Started'
+  link: '/guides/get-started'
+next:
+  text: 'Basic'
+  link: '/examples/basic'
+---
+
 # Examples
 
 <!--@include: ./parts/links.md{,6}-->

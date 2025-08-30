@@ -64,7 +64,7 @@ export default defineConfig({
     logo: '/images/logo-sm.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Get Started', link: '/guides/get-started' },
+      { text: 'Get Started', link: '/guides/get-started', activeMatch: '/guides/' },
       { text: 'Examples', link: '/examples', activeMatch: '/examples/' },
       {
         text: 'Links',
