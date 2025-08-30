@@ -118,7 +118,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/cssnr/vitepress-swiper/docs/:path',
+      pattern: 'https://github.com/cssnr/vitepress-swiper-docs/blob/master/docs/:path',
       text: 'View on GitHub',
     },
 
