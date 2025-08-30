@@ -7,7 +7,7 @@ hero:
   text: Photo Gallery Plugin
   tagline: A VitePress Swiper Plugin to Easily add an Image Gallery or Photo Slideshow with Custom Options.
   image:
-    src: /images/logo-lg.png
+    src: /images/logo.png
     alt: VitePress Swiper
   actions:
     - text: Get Started
@@ -45,6 +45,20 @@ features:
 .badges > p {
     margin-top: 80px;
     text-align: center;
+}
+
+.badges img {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.badges img:hover {
+    transform: scale(1.05);
 }
 </style>
 

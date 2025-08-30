@@ -36,7 +36,9 @@ export default defineConfig({
   title: settings.title,
   description: settings.description.short,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/logo.png' }],
+
     ['meta', { name: 'darkreader-lock' }],
 
     ['meta', { name: 'theme-color', content: '#0064FC' }],
@@ -46,14 +48,14 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: settings.name }],
     ['meta', { property: 'og:title', content: settings.title }],
     ['meta', { property: 'og:description', content: settings.description.short }],
-    ['meta', { property: 'og:image', content: '/images/logo-lg.png' }],
+    ['meta', { property: 'og:image', content: '/images/logo.png' }],
     ['meta', { property: 'og:image:alt', content: settings.title }],
 
     ['meta', { property: 'twitter:card', content: 'summary' }],
     ['meta', { property: 'twitter:site', content: settings.name }],
     ['meta', { property: 'twitter:title', content: settings.title }],
     ['meta', { property: 'twitter:description', content: settings.description.short }],
-    ['meta', { property: 'twitter:image', content: '/images/logo-lg.png' }],
+    ['meta', { property: 'twitter:image', content: '/images/logo.png' }],
     ['meta', { property: 'twitter:image:alt', content: settings.title }],
   ],
 
