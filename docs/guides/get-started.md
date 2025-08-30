@@ -1,10 +1,3 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-#prev: false
-#next: false
-layout: doc
----
-
 # Getting Started
 
 A [Swiper](https://swiperjs.com/) Plugin for [VitePress](https://vitepress.dev/) to Easily add a Photo Gallery or Image Slideshow.
@@ -35,7 +28,7 @@ bun i @cssnr/vitepress-swiper
 
 :::
 
-_Note: you can also [copy the srouce](source.md) file to your project._
+_Note: you can also [copy the source](source.md) file to your project._
 
 ## Setup
 

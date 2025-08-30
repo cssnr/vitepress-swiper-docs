@@ -13,7 +13,7 @@ You must provide `:slides` or a `base-url` but **not both**.
 | **:slides**             |   or **base-url**    | Array  | Base URL for image sources     |
 | **base-url** **¹**      |    or **:slides**    | String | Base URL for image sources     |
 | :number-of-slides **¹** |         `1`          | Number | Number of slides to generate   |
-| :start-at **¹**         |         `1`          | Number | Number to start genreation     |
+| :start-at **¹**         |         `1`          | Number | Number to start generation     |
 | file-ext **¹**          |        `.jpg`        | String | Extension for file names       |
 | :pad-start **¹**        |         `1`          | Number | Pad file names with `0`'s      |
 | file-name-prefix **¹**  |         ` `          | String | Prefix for file names          |
