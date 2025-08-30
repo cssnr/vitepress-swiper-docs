@@ -8,7 +8,12 @@ Each example includes the Swiper and the corresponding code below it.
 
 _Note: some effects do not support lazy loading and will load all images._
 
-<!--@include: ./parts/links.md{,6}-->
+- [Basic](basic.md)
+- [Slide](slide.md)
+- [Cube](cube.md)
+- [Coverflow](coverflow.md)
+- [Fade](fade.md)
+- [Flip](flip.md)
 
 ## Live Demos
 

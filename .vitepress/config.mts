@@ -93,6 +93,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Basic', link: '/examples/basic' },
+          { text: 'Slide', link: '/examples/slide' },
           { text: 'Cube', link: '/examples/cube' },
           { text: 'Coverflow', link: '/examples/coverflow' },
           { text: 'Fade', link: '/examples/fade' },
