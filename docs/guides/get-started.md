@@ -38,7 +38,7 @@ _Note: you can also [copy the source](source.md) file to your project._
 
 ## Setup
 
-Add these 3 lines to your `index.js` or `index.ts`.
+Add these 3 lines to your `index.[js,ts]`.
 
 ```javascript [.vitepress/theme/index.js]
 import DefaultTheme from 'vitepress/theme'
@@ -58,9 +58,11 @@ _Note: if you don't have a [.vitepress/theme/index.js](https://vitepress.dev/gui
 
 ## Usage
 
-Add a `<VPSwiper>` tag where you want the Swiper to show up.
+Add a `<VPSwiper>` tag to your Markdown where you want the Swiper to appear.
 
-```vue [Markdown ~vscode-icons:file-type-text~]
+::: code-group
+
+```vue [Basic ~vscode-icons:file-type-text~]
 <VPSwiper
   :slides="[
     'https://example.com/path/1.jpg',
@@ -70,9 +72,7 @@ Add a `<VPSwiper>` tag where you want the Swiper to show up.
 />
 ```
 
-Example using [additional options](options.md).
-
-```vue [Markdown ~vscode-icons:file-type-text~]
+```vue [Additional Options ~vscode-icons:file-type-text~]
 <VPSwiper
   :slides="[
     'https://example.com/path/1.jpg',
@@ -88,19 +88,21 @@ Example using [additional options](options.md).
 />
 ```
 
+:::
+
+Make sure to check out the [Additional Options](options.md).
+
 _Note: HTML tags must be seperated from Markdown with one blank line._
 
 ::: info 🖼️ LIVE DEMOS
-You can view more examples on the [Examples page](/examples/index.md).
+You can view more on the [Examples page](../examples/index.md).
 :::
 
 ### Dynamic URLs
 
 This can greatly help reduce boilerplate and footprint when creating Swipers.
 
-This only works if your files are named numerically and ordered sequentially.
-
-See the [Dynamic URL's Page](dynamic.md) for more details and documentation.
+See the [Dynamic URL's Page](dynamic.md) for more details.
 
 ::: tip ❔ GET HELP
 If you have any trouble getting started, [support is available](../support.md).

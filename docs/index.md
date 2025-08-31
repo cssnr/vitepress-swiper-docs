@@ -13,6 +13,9 @@ hero:
     - text: Get Started
       link: /guides/get-started
       theme: brand
+    - text: Options
+      link: /guides/options
+      theme: alt
     - text: Examples
       link: /examples
       theme: alt

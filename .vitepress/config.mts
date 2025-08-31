@@ -8,6 +8,10 @@ const settings = {
     short: 'A VitePress Swiper Image/PhotoGallery Plugin.',
     long: ' A VitePress Swiper Plugin to Easily add an Image Gallery or Photo Slideshow with Custom Options.',
   },
+  image: '/images/logo.png',
+  color: '#0064FC',
+  docs_repo: 'https://github.com/cssnr/vitepress-swiper-docs',
+  source_repo: 'https://github.com/cssnr/vitepress-swiper',
 }
 
 // https://vitepress.dev/reference/site-config
@@ -37,25 +41,25 @@ export default defineConfig({
   description: settings.description.short,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/logo.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: settings.image }],
 
     ['meta', { name: 'darkreader-lock' }],
 
-    ['meta', { name: 'theme-color', content: '#0064FC' }],
+    ['meta', { name: 'theme-color', content: settings.color }],
     ['meta', { name: 'description', content: settings.description.long }],
 
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: settings.name }],
     ['meta', { property: 'og:title', content: settings.title }],
     ['meta', { property: 'og:description', content: settings.description.short }],
-    ['meta', { property: 'og:image', content: '/images/logo.png' }],
+    ['meta', { property: 'og:image', content: settings.image }],
     ['meta', { property: 'og:image:alt', content: settings.title }],
 
     ['meta', { property: 'twitter:card', content: 'summary' }],
     ['meta', { property: 'twitter:site', content: settings.name }],
     ['meta', { property: 'twitter:title', content: settings.title }],
     ['meta', { property: 'twitter:description', content: settings.description.short }],
-    ['meta', { property: 'twitter:image', content: '/images/logo.png' }],
+    ['meta', { property: 'twitter:image', content: settings.image }],
     ['meta', { property: 'twitter:image:alt', content: settings.title }],
   ],
 
@@ -71,7 +75,7 @@ export default defineConfig({
       {
         text: 'Links',
         items: [
-          { text: 'Source Code on GitHub', link: 'https://github.com/cssnr/vitepress-swiper' },
+          { text: 'Source Code on GitHub', link: settings.source_repo },
           { text: 'Package on NPM', link: 'https://www.npmjs.com/package/@cssnr/vitepress-swiper' },
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
@@ -109,7 +113,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/cssnr/vitepress-swiper' },
+      { icon: 'github', link: settings.source_repo },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/@cssnr/vitepress-swiper' },
       { icon: 'discord', link: 'https://discord.gg/wXy6m2X8wY' },
       { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
       {
@@ -121,7 +126,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/cssnr/vitepress-swiper-docs/blob/master/docs/:path',
+      pattern: `${settings.docs_repo}/blob/master/docs/:path`,
       text: 'View on GitHub',
     },
 

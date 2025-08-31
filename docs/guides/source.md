@@ -8,8 +8,8 @@ next:
 
 You can easily add the source file to your project for full control over the template.
 
-::: warning
-This method is for advanced users and does not provide updates or support.
+::: warning IMPORTANT
+This method is manual and does not provide updates or support.
 :::
 
 Download or copy the [VPSwiper.vue](https://github.com/cssnr/vitepress-swiper/blob/master/src/VPSwiper.vue)
@@ -40,7 +40,7 @@ bun i swiper
 
 :::
 
-Add these 2 lines to your `index.js` or `index.ts`.
+Add these 2 lines to your `index.[js,ts]`.
 
 ```javascript [.vitepress/theme/index.js]
 import DefaultTheme from 'vitepress/theme'
