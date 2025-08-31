@@ -1,6 +1,6 @@
 # Coverflow Example
 
-<!--@include: ./parts/links.md-->
+<ExampleLinks />
 
 <VPSwiper
 base-url="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/docs"

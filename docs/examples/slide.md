@@ -1,6 +1,6 @@
 # Slide Example
 
-<!--@include: ./parts/links.md-->
+<ExampleLinks />
 
 <VPSwiper
 base-url="https://picsum.photos/id"

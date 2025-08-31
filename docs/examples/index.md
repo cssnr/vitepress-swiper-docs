@@ -9,7 +9,7 @@ next:
 
 # Examples
 
-<!--@include: ./parts/links.md{,1}-->
+<ExampleLinks />
 
 All the examples use absolute URL's and can be copied and pasted for testing.
 
@@ -17,13 +17,7 @@ Each example includes the Swiper and the corresponding code below it.
 
 _Note: some effects do not support lazy loading and will load all images._
 
-- [Basic](basic.md)
-- [Slide](slide.md)
-- [Cube](cube.md)
-- [Coverflow](coverflow.md)
-- [Fade](fade.md)
-- [Flip](flip.md)
-- [Vertical](vertical.md)
+<ExampleLinks :as-list="true" />
 
 ## Live Demos
 

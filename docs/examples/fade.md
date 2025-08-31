@@ -1,6 +1,6 @@
 # Fade Example
 
-<!--@include: ./parts/links.md-->
+<ExampleLinks />
 
 <VPSwiper
 :slides="[

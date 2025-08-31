@@ -1,6 +1,6 @@
 # Basic Example
 
-<!--@include: ./parts/links.md-->
+<ExampleLinks />
 
 <VPSwiper
 base-url="https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/django-files/docs"
