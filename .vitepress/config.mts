@@ -5,8 +5,8 @@ const settings = {
   title: 'VitePress Swiper',
   name: 'Swiper Plugin for VitePress',
   description: {
-    short: 'A VitePress Swiper Image/PhotoGallery Plugin.',
-    long: ' A VitePress Swiper Plugin to Easily add an Image Gallery or Photo Slideshow with Custom Options.',
+    short: 'VitePress Plugin for a SwiperJS Gallery.',
+    long: 'A VitePress Plugin to Easily add a SwiperJS Photo Gallery or Image Slideshow with Custom Options.',
   },
   image: '/images/logo.png',
   color: '#0064FC',
@@ -104,6 +104,7 @@ export default defineConfig({
           { text: 'Coverflow', link: '/examples/coverflow' },
           { text: 'Fade', link: '/examples/fade' },
           { text: 'Flip', link: '/examples/flip' },
+          { text: 'Vertical', link: '/examples/vertical' },
         ],
       },
       {

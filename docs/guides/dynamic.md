@@ -50,7 +50,9 @@ https://example.com/path/slide-10.png
 https://example.com/path/slide-11.png
 ```
 
-Make sure to review all the [additional options](options.md) for the `<VPSwiper>` tag.
+Make sure to check out the [Additional Options](options.md).
+
+_Note: HTML tags must be seperated from Markdown with one blank line._
 
 ::: info 🖼️ LIVE DEMOS
 You can view more on the [Examples page](../examples/index.md).

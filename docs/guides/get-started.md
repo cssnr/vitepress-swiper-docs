@@ -6,7 +6,7 @@ prev:
 
 # Getting Started
 
-A [VitePress](https://vitepress.dev/) Plugin for to Easily add a [Swiper](https://swiperjs.com/) Photo Gallery or Image Slideshow.
+A [VitePress](https://vitepress.dev/) Plugin to Easily add a [SwiperJS](https://swiperjs.com/) Photo Gallery or Image Slideshow.
 
 Start by [installing](#install) the plugin, getting [setup](#setup) and [using](#usage) the gallery.
 

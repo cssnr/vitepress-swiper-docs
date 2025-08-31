@@ -9,7 +9,7 @@ next:
 
 # Examples
 
-<!--@include: ./parts/links.md{,6}-->
+<!--@include: ./parts/links.md{,1}-->
 
 All the examples use absolute URL's and can be copied and pasted for testing.
 
@@ -23,6 +23,7 @@ _Note: some effects do not support lazy loading and will load all images._
 - [Coverflow](coverflow.md)
 - [Fade](fade.md)
 - [Flip](flip.md)
+- [Vertical](vertical.md)
 
 ## Live Demos
 

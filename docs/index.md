@@ -5,7 +5,7 @@ layout: home
 hero:
   name: VitePress Swiper
   text: Photo Gallery Plugin
-  tagline: A VitePress Swiper Plugin to Easily add an Image Gallery or Photo Slideshow with Custom Options.
+  tagline: A VitePress Plugin to Easily add a SwiperJS Photo Gallery or Image Slideshow with Custom Options.
   image:
     src: /images/logo.png
     alt: VitePress Swiper

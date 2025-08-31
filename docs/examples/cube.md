@@ -5,6 +5,7 @@
 <VPSwiper
 base-url="https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/web-extension/docs"
 :number-of-slides="6"
+:initialSlide="1"
 effect="cube"
 />
 
@@ -16,6 +17,7 @@ effect="cube"
 <VPSwiper
   base-url="https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/web-extension/docs"
   :number-of-slides="6"
+  :initialSlide="1"
   effect="cube"
 />
 ```
@@ -30,6 +32,7 @@ effect="cube"
     'https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/web-extension/docs/5.jpg',
     'https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/web-extension/docs/6.jpg',
   ]"
+  :initialSlide="1"
   effect="cube"
 />
 ```

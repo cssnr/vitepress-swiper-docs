@@ -1,8 +1,3 @@
-[Basic](/examples/basic.md) |
-[Slide](/examples/slide.md) |
-[Cube](/examples/cube.md) |
-[Coverflow](/examples/coverflow.md) |
-[Fade](/examples/fade.md) |
-[Flip](/examples/flip.md)
+[Basic](/examples/basic.md) | [Slide](/examples/slide.md) | [Cube](/examples/cube.md) | [Coverflow](/examples/coverflow.md) | [Fade](/examples/fade.md) | [Flip](/examples/flip.md) | [Vertical](/examples/vertical.md)
 
 _Jump to [Code](#code)._
