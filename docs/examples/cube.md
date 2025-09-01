@@ -2,6 +2,8 @@
 
 <ExampleLinks />
 
+<!--@include: ./parts/head.md-->
+
 <VPSwiper
 base-url="https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/web-extension/docs"
 :number-of-slides="6"

@@ -2,6 +2,8 @@
 
 <ExampleLinks />
 
+<!--@include: ./parts/head.md-->
+
 <VPSwiper
 :slides="[
 'https://smashedr.github.io/random-image/aviation/61919_1467456365.jpg',

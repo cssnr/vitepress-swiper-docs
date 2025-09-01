@@ -2,6 +2,8 @@
 
 <ExampleLinks />
 
+<!--@include: ./parts/head.md-->
+
 <VPSwiper
 base-url="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/docs"
 :number-of-slides="22"

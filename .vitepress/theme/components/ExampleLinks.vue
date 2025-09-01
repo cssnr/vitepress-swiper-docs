@@ -13,7 +13,7 @@ const links = [
   { text: 'Slide', href: '/examples/slide' },
   { text: 'Cube', href: '/examples/cube' },
   { text: 'Coverflow', href: '/examples/coverflow' },
-  { text: 'Fade', href: '/examples/slide' },
+  { text: 'Fade', href: '/examples/fade' },
   { text: 'Flip', href: '/examples/flip' },
   { text: 'Vertical', href: '/examples/vertical' },
 ]

@@ -2,6 +2,8 @@
 
 <ExampleLinks />
 
+<!--@include: ./parts/head.md-->
+
 <VPSwiper
 base-url="https://picsum.photos/id"
 :number-of-slides="10"

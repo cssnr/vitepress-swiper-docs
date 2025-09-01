@@ -9,6 +9,8 @@ next:
 
 # Examples
 
+{{ $frontmatter.next.link }}
+
 <ExampleLinks />
 
 All the examples use absolute URL's and can be copied and pasted for testing.
