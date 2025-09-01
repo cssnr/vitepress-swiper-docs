@@ -9,17 +9,13 @@ next:
 
 # Examples
 
-{{ $frontmatter.next.link }}
-
 <ExampleLinks />
 
-All the examples use absolute URL's and can be copied and pasted for testing.
-
-Each example includes the Swiper and the corresponding code below it.
-
-_Note: some effects do not support lazy loading and will load all images._
+All examples include the code and use absolute URL's for copying and pasting.
 
 <ExampleLinks :as-list="true" />
+
+_Note: some effects do not support lazy loading and will load all images._
 
 ## Live Demos
 
