@@ -96,7 +96,7 @@ export default defineConfig({
       {
         text: 'Examples',
         link: '/examples',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Basic', link: '/examples/basic' },
           { text: 'Slide', link: '/examples/slide' },

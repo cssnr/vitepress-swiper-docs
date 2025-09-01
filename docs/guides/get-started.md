@@ -100,7 +100,7 @@ You can view more on the [Examples page](../examples/index.md).
 
 ### Dynamic URLs
 
-This can greatly help reduce boilerplate and footprint when creating Swipers.
+You can generate URL's dynamically using numbers to reduce boilerplate.
 
 See the [Dynamic URL's Page](dynamic.md) for more details.
 
