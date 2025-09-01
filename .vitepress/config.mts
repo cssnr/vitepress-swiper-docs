@@ -140,13 +140,13 @@ export default defineConfig({
     },
 
     search: {
-      provider: 'local',
-      // provider: 'algolia',
-      // options: {
-      //   appId: 'C5CAXNAV8S',
-      //   apiKey: '2485bd6cfe2823fac3a521edb6a3652f',
-      //   indexName: 'vitepress-swiper-docs',
-      // },
+      // provider: 'local',
+      provider: 'algolia',
+      options: {
+        appId: '92WIHGWBPF',
+        apiKey: '17f27bbfbb03ba96e4ca53714e29fe62',
+        indexName: 'vitepress-swiper-docs',
+      },
     },
 
     // footer: {
