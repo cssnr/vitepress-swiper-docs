@@ -3,7 +3,7 @@ import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-i
 
 const settings = {
   title: 'VitePress Swiper',
-  name: 'Swiper Plugin for VitePress',
+  name: 'A SwiperJS VitePress Plugin',
   description: {
     short: 'VitePress Plugin for a SwiperJS Gallery.',
     long: 'A VitePress Plugin to Easily add a SwiperJS Photo Gallery or Image Slideshow with Custom Options.',
@@ -71,7 +71,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/guides/get-started', activeMatch: '/guides/' },
-      { text: 'Examples', link: '/examples', activeMatch: '/examples/' },
+      { text: 'Examples', link: '/examples/', activeMatch: '/examples/' },
       {
         text: 'Links',
         items: [
@@ -80,36 +80,6 @@ export default defineConfig({
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
         ],
-      },
-    ],
-
-    sidebar: [
-      {
-        text: 'Guides',
-        items: [
-          { text: 'Get Started', link: '/guides/get-started' },
-          { text: 'Plugin Options', link: '/guides/options' },
-          { text: "Dynamic URL's", link: '/guides/dynamic' },
-          { text: 'Use from Source', link: '/guides/source' },
-        ],
-      },
-      {
-        text: 'Examples',
-        link: '/examples',
-        collapsed: true,
-        items: [
-          { text: 'Basic', link: '/examples/basic' },
-          { text: 'Slide', link: '/examples/slide' },
-          { text: 'Cube', link: '/examples/cube' },
-          { text: 'Coverflow', link: '/examples/coverflow' },
-          { text: 'Fade', link: '/examples/fade' },
-          { text: 'Flip', link: '/examples/flip' },
-          { text: 'Vertical', link: '/examples/vertical' },
-        ],
-      },
-      {
-        text: 'Support',
-        items: [{ text: 'Support', link: '/support' }],
       },
     ],
 
@@ -123,6 +93,38 @@ export default defineConfig({
           svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" style="fill: none;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>',
         },
         link: 'https://cssnr.github.io/',
+      },
+    ],
+
+    sidebar: [
+      {
+        text: 'Guides',
+        base: '/guides',
+        items: [
+          { text: 'Get Started', link: '/get-started' },
+          { text: 'Plugin Options', link: '/options' },
+          { text: "Dynamic URL's", link: '/dynamic' },
+          { text: 'Use from Source', link: '/source' },
+        ],
+      },
+      {
+        text: 'Examples',
+        base: '/examples',
+        link: '/',
+        collapsed: true,
+        items: [
+          { text: 'Basic', link: '/basic' },
+          { text: 'Slide', link: '/slide' },
+          { text: 'Cube', link: '/cube' },
+          { text: 'Coverflow', link: '/coverflow' },
+          { text: 'Fade', link: '/fade' },
+          { text: 'Flip', link: '/flip' },
+          { text: 'Vertical', link: '/vertical' },
+        ],
+      },
+      {
+        text: 'Support',
+        items: [{ text: 'Get Help', link: '/support' }],
       },
     ],
 

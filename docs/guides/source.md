@@ -8,7 +8,7 @@ next:
 
 You can easily add the source file to your project for full control over the template.
 
-::: warning IMPORTANT
+::: tip ❗ IMPORTANT
 This method is manual and does not provide updates or support.
 :::
 

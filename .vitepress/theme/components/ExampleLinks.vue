@@ -20,22 +20,18 @@ const links = [
 </script>
 
 <template>
-  <template v-if="!props.asList">
-    <p>
-      <template v-for="(link, i) in links" :key="link.href">
-        <template v-if="route.path !== link.href">
-          <a :href="link.href">{{ link.text }}</a>
-        </template>
-        <template v-else>{{ link.text }}</template>
-        <template v-if="i < links.length - 1">{{ ' ' + props.seperator.trim() + ' ' }} </template>
-      </template>
-    </p>
-  </template>
-  <template v-else>
-    <ul>
-      <li v-for="link in links" :key="link.href">
+  <p v-if="!props.asList">
+    <template v-for="(link, i) in links" :key="link.href">
+      <template v-if="route.path !== link.href">
         <a :href="link.href">{{ link.text }}</a>
-      </li>
-    </ul>
-  </template>
+      </template>
+      <template v-else>{{ link.text }}</template>
+      <template v-if="i < links.length - 1">{{ ' ' + props.seperator.trim() + ' ' }} </template>
+    </template>
+  </p>
+  <ul v-else>
+    <li v-for="link in links" :key="link.href">
+      <a :href="link.href">{{ link.text }}</a>
+    </li>
+  </ul>
 </template>

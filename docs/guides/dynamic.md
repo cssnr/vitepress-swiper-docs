@@ -2,7 +2,7 @@
 
 This can greatly help reduce boilerplate and footprint when creating Swipers.
 
-::: warning IMPORTANT
+::: tip ❗ IMPORTANT
 This only works if your files are named numerically and ordered sequentially.
 :::
 
