@@ -109,7 +109,7 @@ export default defineConfig({
       },
       {
         text: 'Examples',
-        base: '/examples',
+        base: '/examples/',
         link: '/',
         collapsed: true,
         items: [
