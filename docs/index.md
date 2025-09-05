@@ -17,7 +17,7 @@ hero:
       link: /guides/options
       theme: alt
     - text: Examples
-      link: /examples
+      link: /examples/
       theme: alt
     - text: Support
       link: /support
@@ -32,7 +32,7 @@ features:
     link: /guides/options
   - title: Live Demos
     details: View Plugin Examples
-    link: /examples
+    link: /examples/
   - title: Get Support
     details: Get Help with Anything
     link: /support

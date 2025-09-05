@@ -12,6 +12,8 @@ Start by [installing](#install) the plugin, getting [setup](#setup) and [using](
 
 ## Install
 
+<span class="search-keywords">Install or Download from NPM npmjs.com</span>
+
 Install directly to your VitePress with the following command.
 
 ::: code-group
