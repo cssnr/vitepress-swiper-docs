@@ -18,7 +18,7 @@ const settings = {
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
   srcDir: './docs',
-  // base: '/path/',
+  // base: '/path',
   vite: {
     server: {
       allowedHosts: true,
@@ -109,7 +109,7 @@ export default defineConfig({
       },
       {
         text: 'Examples',
-        base: '/examples/',
+        base: '/examples',
         link: '/',
         collapsed: true,
         items: [
