@@ -1,5 +1,6 @@
-[![Pages](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-swiper-docs/pages.yaml?logo=cachet&label=pages)](https://github.com/cssnr/vitepress-swiper-docs/actions/workflows/pages.yaml)
-[![Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-swiper-docs/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vitepress-swiper-docs/actions/workflows/lint.yaml)
+[![GitHub Deployments](https://img.shields.io/github/deployments/cssnr/vitepress-swiper-docs/github-pages?logo=github&label=deploy)](https://github.com/cssnr/vitepress-swiper-docs/deployments)
+[![GitHub Pages](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-swiper-docs/pages.yaml?logo=cachet&label=pages)](https://github.com/cssnr/vitepress-swiper-docs/actions/workflows/pages.yaml)
+[![GitHub Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-swiper-docs/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vitepress-swiper-docs/actions/workflows/lint.yaml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/vitepress-swiper-docs?logo=vitepress&logoColor=white&label=updated)](https://github.com/cssnr/vitepress-swiper-docs/pulse)
 [![GitHub Contributors](https://img.shields.io/github/contributors/cssnr/vitepress-swiper-docs?logo=github)](https://github.com/cssnr/vitepress-swiper-docs/graphs/contributors)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/vitepress-swiper-docs?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/vitepress-swiper-docs)
