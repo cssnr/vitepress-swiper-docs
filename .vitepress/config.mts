@@ -12,6 +12,7 @@ const settings = {
   color: '#0064FC',
   docs_repo: 'https://github.com/cssnr/vitepress-swiper-docs',
   source_repo: 'https://github.com/cssnr/vitepress-swiper',
+  npm_link: 'https://www.npmjs.com/package/@cssnr/vitepress-swiper',
 }
 
 // https://vitepress.dev/reference/site-config
@@ -76,7 +77,8 @@ export default defineConfig({
         text: 'Links',
         items: [
           { text: 'Source Code on GitHub', link: settings.source_repo },
-          { text: 'Package on NPM', link: 'https://www.npmjs.com/package/@cssnr/vitepress-swiper' },
+          { text: 'Package on NPM', link: settings.npm_link },
+          { text: 'Docs on GitHub', link: settings.docs_repo },
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
         ],
@@ -85,7 +87,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: settings.source_repo },
-      { icon: 'npm', link: 'https://www.npmjs.com/package/@cssnr/vitepress-swiper' },
+      { icon: 'npm', link: settings.npm_link },
+      { icon: 'vitepress', link: settings.docs_repo },
       { icon: 'discord', link: 'https://discord.gg/wXy6m2X8wY' },
       { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
       {
