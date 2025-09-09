@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  CRAWLER_ID: b2b42be2-ff7f-45a8-8d84-828f80ae8616
+  CRAWLER_ID: "b2b42be2-ff7f-45a8-8d84-828f80ae8616"
 
 permissions:
   contents: read
@@ -89,6 +89,7 @@ jobs:
 
     steps:
       - name: "Algolia Crawler"
+        if: ${{ env.CRAWLER_ID != '' }}
         uses: cssnr/algolia-crawler-action@v1
         with:
           crawler_id: ${{ env.CRAWLER_ID }}

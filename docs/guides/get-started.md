@@ -42,8 +42,10 @@ _Note: you can also [copy the source](source.md) file to your project._
 
 Add these 3 lines to your `index.[js,ts]`.
 
+_If you don't have a [.vitepress/theme/index.js](https://vitepress.dev/guide/custom-theme#theme-resolving) file, create one._
+
 ```javascript [.vitepress/theme/index.js]
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme, { VPBadge } from 'vitepress/theme' // [!code highlight]
 
 import VPSwiper from '@cssnr/vitepress-swiper' // [!code ++]
 import '@cssnr/vitepress-swiper/style.css' // [!code ++]
@@ -51,12 +53,13 @@ import '@cssnr/vitepress-swiper/style.css' // [!code ++]
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
+    app.component('Badge', VPBadge) // [!code highlight]
     app.component('VPSwiper', VPSwiper) // [!code ++]
   },
 }
 ```
 
-_Note: if you don't have a [.vitepress/theme/index.js](https://vitepress.dev/guide/custom-theme#theme-resolving) file, create one._
+The `VPBadge` entries are only required if you are using the VitePress [Badge](https://vitepress.dev/reference/default-theme-badge#badge).
 
 ## Usage
 

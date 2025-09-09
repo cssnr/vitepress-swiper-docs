@@ -1,4 +1,4 @@
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme, { VPBadge } from 'vitepress/theme'
 import './custom.css'
 import 'virtual:group-icons.css'
 
@@ -12,6 +12,7 @@ export default {
     ...DefaultTheme,
 
     enhanceApp({ app }) {
+        app.component('Badge', VPBadge)
         app.component('ExampleLinks', ExampleLinks)
         app.component('VPSwiper', VPSwiper)
     },
