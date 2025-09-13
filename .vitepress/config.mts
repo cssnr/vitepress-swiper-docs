@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 const settings = {
-  title: 'VitePress Swiper',
-  name: 'A SwiperJS VitePress Plugin',
+  siteTitle: 'VitePress Swiper', // For Site Sidebar
+  title: 'VitePress Swiper', // For Actual Title
+  name: 'A SwiperJS VitePress Plugin', // For Meta Tag
   description: {
     short: 'VitePress Plugin for a SwiperJS Gallery.',
     long: 'A VitePress Plugin to Easily add a SwiperJS Photo Gallery or Image Slideshow with Custom Options.',
@@ -19,7 +20,7 @@ const settings = {
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
   srcDir: './docs',
-  // base: '/path',
+  // base: '/path/',
   vite: {
     server: {
       allowedHosts: true,
@@ -36,13 +37,17 @@ export default defineConfig({
     config(md) {
       md.use(groupIconMdPlugin)
     },
+    // toc: { level: [2] },
   },
 
   title: settings.title,
   description: settings.description.short,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: settings.image }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // ['link', { rel: 'icon', type: 'image/svg', sizes: 'any', href: '/images/logo.svg' }],
+    ['link', { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/images/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/logo-sm.png' }],
+    // ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/logo16.png' }],
 
     ['meta', { name: 'darkreader-lock' }],
 
@@ -67,7 +72,7 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    siteTitle: settings.title,
+    siteTitle: settings.siteTitle,
     logo: '/images/logo-sm.png',
     nav: [
       { text: 'Home', link: '/' },
@@ -93,7 +98,7 @@ export default defineConfig({
       { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
       {
         icon: {
-          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" style="fill: none;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>',
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: none;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>',
         },
         link: 'https://cssnr.github.io/',
       },
@@ -127,13 +132,16 @@ export default defineConfig({
       },
       {
         text: 'Support',
-        items: [{ text: 'Get Help', link: '/support' }],
+        items: [
+          { text: 'Get Help', link: '/support' },
+          //
+        ],
       },
     ],
 
     editLink: {
       pattern: `${settings.docs_repo}/blob/master/docs/:path`,
-      text: 'View on GitHub',
+      text: 'View or Edit on GitHub',
     },
 
     lastUpdated: {
