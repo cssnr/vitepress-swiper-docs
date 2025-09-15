@@ -44,27 +44,6 @@ features:
     link: https://github.com/cssnr/vitepress-swiper
 ---
 
-<style>
-.badges > p {
-    margin-top: 80px;
-    text-align: center;
-}
-
-.badges img {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-.badges img:hover {
-    transform: scale(1.05);
-}
-</style>
-
 <div class="badges">
 
 [![NPM Downloads](https://img.shields.io/npm/dw/%40cssnr%2Fvitepress-swiper?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-swiper)
@@ -85,3 +64,24 @@ features:
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
 </div>
+
+<style>
+.badges > p {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.badges img {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.badges img:hover {
+    transform: scale(1.05);
+}
+</style>

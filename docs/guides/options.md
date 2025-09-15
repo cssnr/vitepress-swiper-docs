@@ -58,11 +58,11 @@ If you need more options, please [request a feature](../support.md).
 :::
 
 <style module>
-table td:nth-child(1) {
-  white-space: nowrap;
+table td {
+  padding: 8px 8px !important;
 }
 
-table th, table td {
-  padding: 8px 8px !important;
+table td:nth-child(1) {
+  white-space: nowrap;
 }
 </style>
