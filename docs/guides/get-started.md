@@ -8,7 +8,7 @@ prev:
 
 A [VitePress](https://vitepress.dev/) Plugin to Easily add a [SwiperJS](https://swiperjs.com/) Photo Gallery or Image Slideshow.
 
-Start by [installing](#install) the plugin, getting [setup](#setup) and [using](#usage) the gallery.
+Start by [installing](#install) the package, [setting](#setup) up the plugin, and [using](#usage) the component.
 
 ## Install
 
@@ -59,7 +59,7 @@ export default {
 }
 ```
 
-The `VPBadge` entries are only required if you are using the VitePress [Badge](https://vitepress.dev/reference/default-theme-badge#badge).
+<Badge type="info">VPBadge</Badge> Only required if you are using the VitePress [Badge](https://vitepress.dev/reference/default-theme-badge#badge).
 
 ## Usage
 

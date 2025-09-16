@@ -18,7 +18,7 @@ file to your project.
 - Source File: [VPSwiper.vue](https://github.com/cssnr/vitepress-swiper/blob/master/src/VPSwiper.vue)
 - Target Location: `.vitepress/theme/components/VPSwiper.vue`
 
-Install the dependency, Swiper.
+Install the dependency, [SwiperJS](https://www.npmjs.com/package/swiper).
 
 ::: code-group
 
@@ -43,16 +43,23 @@ bun i swiper
 Add these 2 lines to your `index.[js,ts]`.
 
 ```javascript [.vitepress/theme/index.js]
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme, { VPBadge } from 'vitepress/theme' // [!code highlight]
 
 import VPSwiper from './components/VPSwiper.vue' // [!code ++]
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
+    app.component('Badge', VPBadge) // [!code highlight]
     app.component('VPSwiper', VPSwiper) // [!code ++]
   },
 }
 ```
 
-Then see the [Usage Guide](get-started.md#usage) for instructions on adding the `<VPSwiper>` tag.
+<Badge type="info">VPBadge</Badge> Only required if you are using the VitePress [Badge](https://vitepress.dev/reference/default-theme-badge#badge).
+
+<div class="tip custom-block" style="padding-top: 8px; margin-top: 32px;">
+
+See the [Usage Guide](get-started.md#usage) for instructions on adding the `<VPSwiper>` tag.
+
+</div>

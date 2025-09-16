@@ -22,4 +22,5 @@ _Note: some effects do not support lazy loading and will load all images._
 Examples of other sites using `@cssnr/vitepress-swiper`:
 
 - https://django-files.github.io/guides/features#screenshots
+  - [iOS](https://django-files.github.io/clients/ios#screenshots) - [Android](https://django-files.github.io/clients/android#screenshots) - [Web Extension](https://django-files.github.io/clients/browser#screenshots)
 - https://zipline-android.cssnr.com/guides/features#screenshots
